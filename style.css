@@ -1,0 +1,92 @@
+
+
+nav{
+    display: flex;
+    background-color: #2F375B;
+}
+nav h1{
+   
+    color: white;
+    cursor: pointer;
+    padding-left: 5%;
+}
+ul{
+    display: flex;
+    padding-left: 70%;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: goldenrod;
+}
+.hov{
+    height: 80vh;
+    background-color: #2F375B;
+}
+
+.gold{
+    font-family: monospace;
+   padding-left: 40%;
+    color: #DD4943;
+    font-size: 400%;
+    cursor: pointer;
+}
+.gold:hover{
+    color: goldenrod;
+}
+.hov section h3{
+    font-size: 18px;
+    color: white;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+}
+.hov section .image{
+  
+   padding-left: 35%;
+}
+footer{
+    background-color: #353535;
+ 
+}
+footer h3{
+    color: #B29D00;
+    padding-left: 5%;
+  
+}
+footer .coordonnee{
+    margin-bottom: 10px;
+}
+
+footer .lien{
+    margin-top: 70px;
+    padding-left: 55%;
+  
+    
+}
+
+.lien a{
+    text-decoration: none;
+}
+.lien a img{
+   
+    transition: 1s;
+}
+
+.lien a img:hover{
+    transform: rotate(360deg);
+}

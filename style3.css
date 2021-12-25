@@ -1,0 +1,133 @@
+
+nav{
+    display: flex;
+    background-color: #2F375B;
+}
+nav h1{
+   
+    color: white;
+    cursor: pointer;
+    padding-left: 5%;
+}
+ul{
+    display: flex;
+    padding-left: 70%;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: goldenrod;
+}
+.gold {
+    color: gold;
+}
+
+fieldset{
+    width: 20%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+legend{
+    color: black;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+
+label, input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    color: black;
+    font-size: 10px;
+    font-family: cursive;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    
+}
+
+button:hover{
+    color: black;
+    background: white;
+}
+
+textarea{
+    display: block;
+    border-radius: 8px;
+    resize: none;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #353535;
+ 
+}
+footer h3{
+    color: #B29D00;
+    padding-left: 5%;
+  
+}
+footer .coordonnee{
+    margin-bottom: 10px;
+}
+
+footer .lien{
+    margin-top: 70px;
+    padding-left: 55%;
+  
+    
+}
+
+.lien a{
+    text-decoration: none;
+}
+.lien a img{
+   
+    transition: 1s;
+}
+
+.lien a img:hover{
+    transform: rotate(360deg);
+}
